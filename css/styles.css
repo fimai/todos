@@ -1,17 +1,25 @@
 body{
   font-size: 16px;
   font-family: Verdana, sans-serif;
+  background:#FDF5E6;
 }
 
 .container{
-  width:300px;
+  width:300px; 
   margin: auto;
+
 }
 
 #app h1{
-  font-size: 16px;
+  font-size: 18px;
   border-bottom: 1px solid #ddd;
   padding: 16px 0;
+  /* background: #e0edff; */
+
+}
+
+.title{
+  margin-left:5px;
 }
 
 #app li{
@@ -36,10 +44,11 @@ body{
 #app li > span.done{
   text-decoration: line-through;
   color: #bbb;
+  
 }
 
 .info{
-  color: #bbb;
+  color: #999;
   font-size:12px;
   font-weight: normal;
 }
@@ -50,4 +59,25 @@ body{
 
 .inputtext{
   background-color:#F8F8FF;
+}
+
+.btn-square-little-rich {
+  position: relative;
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #FFF;
+  background: #03A9F4;/*色*/
+  border: solid 1px #0f9ada;/*線色*/
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+  text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+  margin-right:5px;
+}
+
+.btn-square-little-rich:active {
+  /*押したとき*/
+  border: solid 1px #03A9F4;
+  box-shadow: none;
+  text-shadow: none;
 }
